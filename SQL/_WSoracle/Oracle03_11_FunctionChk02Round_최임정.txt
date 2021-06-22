@@ -1,6 +1,0 @@
-SQL> select ROUND(777.777,2) as "roundChk01", ROUND(777.777,0) as "roundChk02" ,
-  2  ROUND(777.777,-2) as "roundChk03" from dual;
-
-roundChk01 roundChk02 roundChk03
----------- ---------- ----------
-    777.78        778        800

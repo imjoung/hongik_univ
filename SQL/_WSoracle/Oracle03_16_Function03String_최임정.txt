@@ -1,8 +1,0 @@
-SQL> select LOWER('korea') as "01",
-UPPER('korea') as "02", 
-INITCAP('i am a boy') as "03", 
-LENGTH('korea') as"04" from dual;
-
-01         02         03                           04
----------- ---------- -------------------- ----------
-korea      KOREA      I Am A Boy                    5

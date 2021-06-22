@@ -1,8 +1,0 @@
-SQL> select deptno, COUNT(sapay) as "사원수", MAX(sapay) as "최고급여", MIN(sapay) as "최저급여",
-  2  SUM(sapay) as "급여합", AVG(sapay) as "급여평균" from sawon GROUP BY deptno;
-
-DEPTNO     사원수   최고급여   최저급여     급여합   급여평균
------- ---------- ---------- ---------- ---------- ----------
-    30          7       4003        400      13718 1959.71429
-    20          7       3500       1200      17200 2457.14286
-    10          6       5000       1100      17400       2900
