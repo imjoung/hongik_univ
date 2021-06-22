@@ -1,0 +1,6 @@
+SQL> select TRUNC(777.777,2) as "truncChk01", TRUNC(777.777,0) as "truncChk02" ,
+  2  TRUNC(777.777,-2) as "truncChk03" from dual;
+
+truncChk01 truncChk02 truncChk03
+---------- ---------- ----------
+    777.77        777        700

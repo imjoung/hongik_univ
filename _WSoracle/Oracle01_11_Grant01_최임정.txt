@@ -1,0 +1,14 @@
+SQL> create user angel identified by angel;
+
+User created.
+
+SQL> show user
+USER is "SYS"
+SQL> grant dba to angel;
+
+Grant succeeded.
+
+SQL> conn angel/angel;
+Connected.
+SQL> show user
+USER is "ANGEL"

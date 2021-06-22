@@ -1,0 +1,11 @@
+SQL> select CONCAT('Nice','Day') from dual;
+
+CONCAT('NICE',
+--------------
+NiceDay
+
+SQL> select 'Nice'||'Day'||'~!!' as CONCAT from dual;
+
+CONCAT
+--------------------
+NiceDay~!!

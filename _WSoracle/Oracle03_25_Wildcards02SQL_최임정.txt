@@ -1,0 +1,46 @@
+#김씨사원
+SQL> select saname as "사원이름" from sawon where saname LIKE '김%';
+
+사원이름
+--------------------
+김유신
+
+#두번째 이름이 '미' 인 사원
+SQL> SELECT saname as "사원이름" from sawon where saname LIKE '_미%';
+
+사원이름
+--------------------
+이미라
+
+#이름이 두글자인 고객
+SQL> SELECT goname as "사원이름" from gogek where goname LIKE '__';
+
+사원이름
+--------------------
+뷰민
+강민
+영희
+철이
+뷰완
+캔디
+똘이
+쇠돌
+홍이
+안나
+
+#이름에 순이 들어가는 모든 사원
+SQL> SELECT saname as "사원이름" from sawon where saname LIKE '%순%';
+
+사원이름
+--------------------
+이순신
+이순라
+
+#마지막이름이 '만'인 사람
+
+SQL> SELECT saname as "사원이름" from sawon where saname LIKE '%만';
+
+사원이름
+--------------------
+놀기만
+공부만

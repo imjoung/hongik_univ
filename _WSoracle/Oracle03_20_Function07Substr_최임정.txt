@@ -1,0 +1,26 @@
+SQL> select saname as"이름", sapay as "급여" from sawon;
+
+이름                       급여
+-------------------- ----------
+홍길동                     5000
+한국남                     3000
+이순신                     3500
+이순라                     1200
+놀기만                     2300
+SQL> select SUBSTR('Happyday',3,3) from dual;
+
+SUBSTR
+------
+ppy
+
+SQL> select INSTR('Happyday','ppy') from dual;
+
+INSTR('HAPPYDAY','PPY')
+-----------------------
+                      3
+
+SQL> select REPLACE('Happyday','ppy','qqy') from dual;
+
+REPLACE('HAPPYDA
+----------------
+Haqqyday

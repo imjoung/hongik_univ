@@ -1,0 +1,25 @@
+SQL> create user angel identified by angel;
+
+User created.
+
+SQL> select * from all_users;
+
+USERNAME                                                        USER_ID CREATED
+------------------------------------------------------------ ---------- --------
+XS$NULL                                                      2147483638 14/05/29
+ANGEL                                                                48 21/06/03
+APEX_040000                                                          47 14/05/29
+APEX_PUBLIC_USER                                                     45 14/05/29
+FLOWS_FILES                                                          44 14/05/29
+HR                                                                   43 14/05/29
+MDSYS                                                                42 14/05/29
+ANONYMOUS                                                            35 14/05/29
+XDB                                                                  34 14/05/29
+CTXSYS                                                               32 14/05/29
+APPQOSSYS                                                            30 14/05/29
+DBSNMP                                                               29 14/05/29
+ORACLE_OCM                                                           21 14/05/29
+DIP                                                                  14 14/05/29
+OUTLN                                                                 9 14/05/29
+SYSTEM                                                                5 14/05/29
+SYS                                                                   0 14/05/29
