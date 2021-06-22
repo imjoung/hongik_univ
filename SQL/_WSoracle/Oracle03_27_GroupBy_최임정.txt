@@ -1,0 +1,6 @@
+SQL> select COUNT(sapay) as "사원수", MAX(sapay) as "최고급여", MIN(sapay) as "최저급여",
+  2  SUM(sapay) as "급여합", AVG(sapay) as "급여평균" from sawon;
+
+    사원수   최고급여   최저급여     급여합   급여평균
+---------- ---------- ---------- ---------- ----------
+        20       5000        400      48318     2415.9
